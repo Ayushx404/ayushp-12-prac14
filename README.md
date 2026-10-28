@@ -1,126 +1,70 @@
-🌐 Single-Page Website Using ReactJS
+# Personal Portfolio
 
-A modern, responsive single-page website developed using ReactJS as part of Practical No. 14 for the Web Technology Lab (FYMCA).
-📌 Project Overview
+A responsive single-page portfolio website built with ReactJS and React Router, with a clean, rounded UI inspired by Samsung's One UI. Built as part of Practical No. 14 (Single-Page Website Using ReactJS).
 
-This project demonstrates the development of a single-page website using ReactJS. It focuses on component-based development, reusable UI components, and client-side navigation using React Router.
+**Live site:** 
 
-The project is developed as part of the college practical assignment. Database connectivity is not required.
-🎯 Objectives
+## Features
 
-    Develop a single-page website using ReactJS.
-    Understand React components and application structure.
-    Implement client-side navigation using React Router.
-    Create a responsive and user-friendly interface.
-    Build and deploy the website for online access.
+- Single-page application with client-side routing (no page reloads)
+- Five pages: Home, About, Skills, Projects, Contact, plus a 404 page
+- Reusable components and data-driven cards rendered with `map()`
+- Responsive layout that works on desktop and mobile
+- Automatic dark mode based on system theme
+- No backend or database required
 
-🛠️ Technologies Used
+## Tech Stack
 
-    ReactJS – Frontend library
-    Vite – Development server and build tool
-    JavaScript – Application logic
-    HTML5 – Website structure
-    CSS3 – Styling and responsive design
-    React Router DOM – Client-side routing
-    Git & GitHub – Version control and source code hosting
+- [React](https://react.dev/) (JavaScript)
+- [Vite](https://vitejs.dev/) as the build tool
+- [React Router DOM](https://reactrouter.com/) for routing
+- Plain CSS with custom properties (CSS variables)
 
-✨ Features
+## Getting Started
 
-    Single-page website architecture
-    Component-based React development
-    Client-side navigation
-    Responsive user interface
-    Organized project structure
-    Fast development and production builds using Vite
+### Prerequisites
 
-📂 Project Structure
-text
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- npm
 
-ayushp-12-prac14/
-├── public/
-│   ├── favicon.svg
-│   └── icons.svg
-├── src/
-│   ├── assets/
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-├── vite.config.js
-└── README.md
+### Installation
 
-⚙️ Installation and Setup
-Prerequisites
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/<repo-name>.git
 
-Make sure you have the following installed:
+# Move into the project folder
+cd <repo-name>
 
-    Node.js
-    npm (included with Node.js)
-    Git
-
-1. Clone the repository
-bash
-
-git clone https://github.com/YOUR-USERNAME/ayushp-12-prac14.git
-
-2. Navigate to the project directory
-bash
-
-cd ayushp-12-prac14
-
-3. Install dependencies
-bash
-
+# Install dependencies
 npm install
 
-4. Start the development server
-bash
-
+# Start the development server
 npm run dev
+```
 
-Open the local URL displayed in your terminal to view the website.
-5. Build for production
-bash
+Then open the local URL printed in the terminal (usually `http://localhost:5173`).
 
+### Build for production
+
+```bash
 npm run build
+```
 
-The production-ready files will be generated in the dist/ directory.
-🚀 Deployment
+The optimized output is generated in the `dist` folder.
 
-The website can be deployed using platforms such as:
+## Project Structure
 
-    Vercel
-    Netlify
-    GitHub Pages (with appropriate Vite configuration)
+```
+src/
+├── App.jsx     # All pages and routes
+├── App.css     # Styling and theme
+└── main.jsx    # App entry point
+```
 
-After deployment, add the live website URL below.
+## Author
 
-Live Website: https://your-deployed-website-url
-🎓 Academic Information
+**Ayush Patil**
+MCA Student, Hiray Institute of Computer Application, Mumbai
 
-    Practical No.: 14
-    Subject: Web Technology Lab
-    Course: FYMCA
-    Project Title: Single-Page Website Using ReactJS
-    Student Name: Ayush
-    Roll Number: [Enter Your Roll Number]
-    Division: [Enter Your Division]
-
-📋 Submission Checklist
-
-    ReactJS source code committed to GitHub
-    Project dependencies install successfully
-    Production build completes successfully
-    Website deployed and live URL added
-    Live website URL submitted through Google Classroom
-    Screenshots attached if required
-
-📄 License
-
-This project was developed for educational and academic purposes as part of a college practical assignment.
-
-Developed by Ayush | Web Technology Lab – FYMCA
+- GitHub: [@Ayushx404](https://github.com/Ayushx404)
