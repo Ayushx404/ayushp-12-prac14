@@ -109,7 +109,7 @@ function Projects() {
       title: 'Personal Portfolio',
       description: 'A responsive single-page website to showcase my profile.',
       tech: 'ReactJS • CSS',
-      link: '', // paste your GitHub link here
+      link: 'https://github.com/Ayushx404/ayushp-12-prac14', // paste your GitHub link here
     },
   ];
 
