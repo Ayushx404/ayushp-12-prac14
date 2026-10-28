@@ -2,7 +2,7 @@
 
 A responsive single-page portfolio website built with ReactJS and React Router, with a clean, rounded UI inspired by Samsung's One UI. Built as part of Practical No. 14 (Single-Page Website Using ReactJS).
 
-**Live site:** 
+**Live site:** [@Vercel](https://ayushp-12-prac14.vercel.app/)
 
 ## Features
 
@@ -51,7 +51,6 @@ Then open the local URL printed in the terminal (usually `http://localhost:5173`
 npm run build
 ```
 
-The optimized output is generated in the `dist` folder.
 
 ## Project Structure
 
