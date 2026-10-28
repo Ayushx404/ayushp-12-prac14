@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, NavLink, href } from 'react-router-dom';
 import './App.css';
 
 function Home() {
@@ -151,8 +151,8 @@ function Contact() {
       <div className="card contact-card">
         <h2>Get in touch</h2>
         <p>Interested in technology, projects, or collaboration?</p>
-        <a href="aayush.roha@gmail.com" className="primary-btn">
-          Email me
+        <a href="mailto:aayush.roha@gmail.com" className="primary-btn">
+        Email me
         </a>
       </div>
     </section>
