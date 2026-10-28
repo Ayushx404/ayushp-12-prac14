@@ -26,7 +26,6 @@ function Home() {
       </div>
       <div className="profile-circle">
         <div className="profile-icon">AP</div>
-        <h3>Future Developer</h3>
       </div>
     </section>
   );
